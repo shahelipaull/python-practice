@@ -108,6 +108,10 @@ account1.transfer(300, account2)
 #print(account1.get_history())
 #print(account2.get_history())
 
+
+
+#LC 121
+"""
 class Solution(object):
     def maxProfit(self, prices):
         min=prices[0]
@@ -119,4 +123,4 @@ class Solution(object):
                 maxprofit=price-min
 
         return maxprofit
-        
+"""
